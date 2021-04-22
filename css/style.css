@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ---------  padrão  --------- */
+
+* {
+	font-family: acumin-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	box-sizing: border-box;
+}
+
+body, ul, p {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.tamanho-padrao {
+	max-width: 1366px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+
+
+/* Menu */
+
+
+.nav-padrao {
+	padding: 20px;
+	display: flex;
+	background-color: #4E6A72;
+	justify-content: space-between;
+}
+
+.nav-padrao img {
+	width: 180px;
+}
+
+.ul-menu {
+	width: 350px;
+	display: flex;
+	font-size: 18px;
+	margin-right: 100px;
+	justify-content: space-between;
+}
+
+.ul-hover li {
+	font-size: 18px;
+	margin: auto 0;
+}
+
+.ul-hover li a {
+	color: #131313;
+	opacity: 0.9;
+}
+
+.ul-hover li a:hover {
+	color: black;
+	opacity: 1;
+}
+
+
+
+/* Css para padronizar a imagem circular */
+
+
+.cont-img {
+	width: 50%;
+}
+
+.cont-img img {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 80%;
+}
+
+
+
+/* footer */
+
+
+.footer-padrao {
+	background-color: #4E6A72;
+	margin-top: 67px;
+	height: 120px;
+	padding: 20px;
+}
+
+.ul-footer {
+	width: 70%;
+	height: 100%;
+	display: flex;
+    margin: 0 auto;
+	justify-content: space-between;
+}
+
+/* ---------  padrão  --------- */
+
+
+
+
+/* ---------  index  --------- */
+
+
+.section-index {
+	margin-top: 60px;
+	display: flex;
+}
+
+.text-info {
+	margin: auto 0;
+	width: 50%;
+}
+
+.text-info .descrição {
+	font-size: 28px;
+}
+
+.text-info .divulgação {
+	font-weight: bold;
+	font-size: 36px;
+}
+
+
+/* ---------  index  --------- */
+
+
+
+
+/* ---------  história  --------- */
+
+
+.historia h2 {
+    font-size: 34px;
+    margin: 60px auto;
+    width: 230px;
+}
+
+.historia-cont {
+    display: flex;
+}
+
+.cont-text {
+    width: 50%;
+    font-size: 28px;
+    margin: auto 0;
+}
+
+/* ---------  história  --------- */
+
+
+
+
+/* ---------  portfólio  --------- */
+
+.titulo {
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio a {
+    width: 48%;
+    margin: auto;
+}
+
+.propaganda {
+    background-color: #4e6a72;
+    margin: 40px 0 -60px 0;
+    height: 120px;
+}
+
+.propaganda p {
+    margin: auto;
+    padding-top: 40px;
+    font-size: 28px;
+    width: 525px;
+    display: flex;
+}
+
+/* ---------  portfólio  --------- */
+
+
+
+
+/* ---------  contato  --------- */
+
+
+.div-contato {
+    margin: 60px auto 20px auto;
+    font-size: 34px;
+    width: 120px;
+}
+
+.article-contato {
+    display: flex;
+}
+
+.contato-text {
+    margin: auto 0;
+    width: 50%;
+    font-size: 28px;
+}
+
+.contato-text a {
+    color: black;
+}
+
+.contato-text li {
+    margin-bottom: 15px;
+}
+
+.email {
+    margin-top: 90px;    
+    font-size: 28px;
+    width: 100%;
+}
+
+.email p {
+    margin: 0 auto;
+    width: 370px;
+}
+
+
+/* ---------  contato  --------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
